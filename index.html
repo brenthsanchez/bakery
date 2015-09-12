@@ -87,12 +87,12 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse dropdown-toggle" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
        <li><a href="food.html">Food Menu</a></li>
         <li><a href="bakery.html">Bakery/Pastries</a></li>
-        <li><a href="#gmap">Location</a></li>
+        <li><a class="location" href="#gmap">Location</a></li>
        
       </ul>
      
@@ -403,10 +403,13 @@
               new WOW().init();
               </script>
 
-
-
-
-
+<script type="text/javascript">
+$(document).ready(function () {
+$(".navbar-nav li a").click(function(event) {
+$(".navbar-collapse").collapse('hide');
+});
+});
+</script>
 </body>
 
 </html>
