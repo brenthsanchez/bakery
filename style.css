@@ -215,6 +215,8 @@ p
 
 	margin: 0px 0px -10px;
 line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1.5px;
 
 }
 
@@ -737,7 +739,7 @@ background-color: #FFFFFF;
 
 .navbar-default {
 
-	background-color: rgba(251, 251, 251, 1);
+	background-color: rgba(255, 255, 255, 1);
 
 	border-color: rgba(255, 255, 255, 0.4);
 
