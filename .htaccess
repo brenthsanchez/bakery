@@ -28,3 +28,17 @@ ExpiresByType image/x-icon "access plus 1 year"
 ExpiresDefault "access plus 2 days"
 </IfModule>
 ## EXPIRES CACHING ##
+
+<ifModule mod_headers.c>
+	ExpiresActive On
+	
+	# Expires after 1 month
+	<filesMatch ".(gif|png|jpg|jpeg|ico|pdf|js|htm|html|txt|mp4)$">
+	Header set Cache-Control "max-age=2592000"
+	</filesMatch>
+	
+	# Expires after 1 day
+	<filesMatch ".(css)$">
+	Header set Cache-Control "max-age=86400"
+	</filesMatch>
+	</ifModule>
