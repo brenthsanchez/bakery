@@ -21,9 +21,7 @@ ExpiresByType text/css "access plus 1 month"
 <filesMatch "\.(js)$"> 
     ExpiresDefault A29030400 
 </filesMatch>
-<filesMatch "\.(mp4)$"> 
-    ExpiresDefault A29030400 
-</filesMatch>
+
 ExpiresByType application/pdf "access plus 1 month"
 ExpiresByType text/x-javascript "access plus 1 month"
 ExpiresByType application/x-shockwave-flash "access plus 1 month"
