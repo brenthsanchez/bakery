@@ -1,3 +1,17 @@
+.greenbutton {
+    margin-top: 50px;
+	background-color: #2EA72E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    max-width: 390px;
+    font-size: 20px;
+	}
+	
+.greenbutton a {
+color: white;
+}
+
 div#bakery ul {
     margin-top: 40px;
 }
@@ -151,26 +165,23 @@ a:focus {
 }
 p
 {
-    color: #171717;
+    color: #0E0E0E;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     margin-top: 15px;
-    line-height: 28px;
+    line-height: 30px;
         letter-spacing: .2px;
 }
 
+.homepagetext {
+    margin-top: 40px;
+}
+
 .text-banner h2 {
-
 	color: rgb(255, 255, 255);
-
 	font-family: 'Niconne', cursive;
-
 	font-size: 80px;
-
 	text-align: center;
-	
-	    background-color: rgba(206, 206, 206, 0.3);
-
 }
 
 .text-banner p {
@@ -208,19 +219,17 @@ p
 	}
 
 .section-container h3 {
+    font-family: 'Lato', sans-serif;
+    color: rgb(255, 79, 79);
+    font-size: 49px;
+    margin: 0px 0px -10px;
+    line-height: 1;
+    font-weight: 300;
+}
 
-	font-family: 'Lato', sans-serif;
-
-	color: rgb(255, 79, 79);
-
-	font-size: 43px;
-
-	margin: 0px 0px -10px;
-line-height: 1;
-    font-weight: 400;
-    letter-spacing: 1.5px;
-    
-
+.section-container h3 a {
+    color: rgb(255, 79, 79);
+    text-decoration: none;
 }
 
 .header-text {
@@ -853,6 +862,9 @@ display: none;
 
  @media (min-width: 120px) and (max-width: 768px) {
  
+     .greenbutton {
+         font-size: 15px;
+     }
 
      #bx-pager {
     height: 90px;
